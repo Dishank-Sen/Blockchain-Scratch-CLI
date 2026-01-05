@@ -2,7 +2,7 @@
 
 package client
 
-import "github.com/Dishank-Sen/Blockchain-Scratch-layer1/constants"
+import "github.com/Dishank-Sen/Blockchain-Scratch-CLI/constants"
 
 func NewClient() Client{
 	return newUnixClient(constants.SocketPath)

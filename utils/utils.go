@@ -5,7 +5,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/types"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/types"
 )
 
 func CheckDirExist(path string) bool{

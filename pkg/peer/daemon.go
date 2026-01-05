@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"runtime"
 	"time"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils/logger"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils/logger"
 )
 
 func ensureDaemonRunning(timeout time.Duration) error {

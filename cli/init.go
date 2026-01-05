@@ -5,10 +5,10 @@ import (
 	"errors"
 	"os"
 
-	initdir "github.com/Dishank-Sen/Blockchain-Scratch-layer1/cli/initDIr"
-	initfiles "github.com/Dishank-Sen/Blockchain-Scratch-layer1/cli/initFiles"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils/logger"
+	initdir "github.com/Dishank-Sen/Blockchain-Scratch-CLI/cli/initDIr"
+	initfiles "github.com/Dishank-Sen/Blockchain-Scratch-CLI/cli/initFiles"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils/logger"
 	"github.com/spf13/cobra"
 )
 

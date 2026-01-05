@@ -14,7 +14,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/types"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/types"
 )
 
 /* -------------------- DIR -------------------- */

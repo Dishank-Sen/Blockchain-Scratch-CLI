@@ -4,7 +4,7 @@ package client
 import (
 	"net"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/types"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/types"
 )
 
 type unixClient struct {

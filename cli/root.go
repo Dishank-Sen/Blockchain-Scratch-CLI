@@ -3,7 +3,7 @@ package cli
 import (
 	"context"
 	"errors"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils"
 	"github.com/spf13/cobra"
 )
 

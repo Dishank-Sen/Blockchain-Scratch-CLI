@@ -9,10 +9,10 @@ import (
 	"path"
 	"time"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/client"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/types"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils/logger"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/client"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/types"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils/logger"
 )
 
 type Peer struct {

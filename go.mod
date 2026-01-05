@@ -1,4 +1,4 @@
-module github.com/Dishank-Sen/Blockchain-Scratch-layer1
+module github.com/Dishank-Sen/Blockchain-Scratch-CLI
 
 go 1.25.0
 

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/client"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils/logger"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/client"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils/logger"
 	"github.com/spf13/cobra"
 )
 

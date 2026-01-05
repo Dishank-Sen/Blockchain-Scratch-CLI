@@ -3,8 +3,8 @@ package cli
 import (
 	"fmt"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/pkg/peer"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils/logger"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/pkg/peer"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils/logger"
 	"github.com/spf13/cobra"
 )
 

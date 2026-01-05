@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/constants"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/errors"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/constants"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/errors"
 )
 
 func isDaemonRunning() (bool, error) {

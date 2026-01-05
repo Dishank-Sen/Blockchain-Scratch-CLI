@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/cli"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/utils/logger"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/cli"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils/logger"
 )
 
 func main(){

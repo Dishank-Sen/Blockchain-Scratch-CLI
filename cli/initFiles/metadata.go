@@ -3,7 +3,7 @@ package initfiles
 import (
 	"context"
 	"path"
-	"github.com/Dishank-Sen/Blockchain-Scratch-layer1/cli/utils"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/cli/utils"
 )
 
 func init(){
