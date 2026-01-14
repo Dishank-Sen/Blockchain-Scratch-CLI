@@ -21,7 +21,3 @@ type Response struct {
 	Headers    map[string]string
 	Body       []byte
 }
-
-type RegisterBody struct{
-	ID string `json:"id"`
-}

@@ -21,7 +21,7 @@ func CheckDirExist(path string) bool{
 	return false
 }
 
-func GetPeerID() (string, error){
+func GetNodeID() (string, error){
 	filePath := path.Join(".bloc", "identity", "metadata.json")
 	byteData, err := os.ReadFile(filePath)
 	if err != nil{

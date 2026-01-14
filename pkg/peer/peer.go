@@ -21,6 +21,10 @@ type Peer struct {
 	cancel context.CancelFunc
 }
 
+type ConnectPayload struct{
+	ID string `json:"id"`
+}
+
 func NewPeer(parentCtx context.Context) (*Peer, error) {
 	ctx, cancel := context.WithCancel(parentCtx)
 
@@ -67,18 +71,18 @@ func (p *Peer) Connect() error {
 
 	c := client.NewClient()
 
-	id, err := utils.GetPeerID()
+	id, err := utils.GetNodeID()
 	if err != nil {
 		return err
 	}
 
-	req := &types.RegisterBody{ID: id}
+	req := ConnectPayload{ID: id}
 	body, err := json.Marshal(req)
 	if err != nil {
 		return err
 	}
 
-	resp, err := c.Post("/register", body)
+	resp, err := c.Post("/connect", body)
 	if err != nil {
 		return err
 	}

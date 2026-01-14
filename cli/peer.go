@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/client"
+	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils"
 	"github.com/Dishank-Sen/Blockchain-Scratch-CLI/utils/logger"
 	"github.com/spf13/cobra"
 )
@@ -53,8 +54,21 @@ func peerRunE(cmd *cobra.Command, args []string) error {
 
 func handleList() error {
 	c := client.NewClient()
+	nodeID, err := utils.GetNodeID()
+	if err != nil{
+		return err
+	}
+	payload := struct {
+		ID string `json:"id"`
+	}{
+		ID: nodeID,
+	}
 
-	resp, err := c.Get("/peers")
+	byteData, err := json.Marshal(payload)
+	if err != nil{
+		return err
+	}
+	resp, err := c.Post("/peers", byteData)
 	if err != nil {
 		if isDaemonNotRunning(err) {
 			logger.Error("daemon is not running")
