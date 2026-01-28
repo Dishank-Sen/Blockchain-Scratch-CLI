@@ -78,6 +78,10 @@ func handleList() error {
 		return err
 	}
 
+	if resp.StatusCode != 200{
+		logger.Info(fmt.Sprintf("response body: %s", string(resp.Body)))
+		return nil
+	}
 	var peers []PeerInfo
 	if err := json.Unmarshal(resp.Body, &peers); err != nil {
 		return fmt.Errorf("invalid peer list response: %w", err)
